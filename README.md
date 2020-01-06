@@ -15,3 +15,6 @@ Full plugin:
 
 ## Processing Example
 The [Processing](https://processing.org/) folder in this project serves as an example for how to use the data sent from the **udp_send** patch in Processing. Implementing `TrackAmp` objects and linking them to tracks in an Ableton project can allow for any use for amplitude values, visual or not. The project makes use of the **oscP5** library, which can be installed within the Processing IDE under *Sketch > Import Library > Add Library*.
+
+## Special Thanks
+Special thanks for the wonderful work of Corey Walo in his Medium article on Max and Processing found [here](https://medium.com/bytes-of-bits/max-facts-using-osc-to-route-max-into-processing-7635b1dba154).
