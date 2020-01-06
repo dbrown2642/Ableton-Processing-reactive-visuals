@@ -25,6 +25,8 @@ class TrackAmp {
     return scaledAmp;
   }
   
+  // checks if the message is for this instance of TrackAmp
+  // and updates the amplitude value if it is
   void checkAndSet(OscMessage theOscMessage, float val) {
     String endpoint = "/" + currentTrack;
     if (theOscMessage.checkAddrPattern(endpoint)) {
